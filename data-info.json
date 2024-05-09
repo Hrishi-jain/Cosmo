@@ -1,0 +1,99 @@
+
+    {
+       "course": [
+        { 
+            "id": "1", 
+        "title": "Bride Makeup", 
+        "thumbnail":"https://image.wedmegood.com/resized/540X/uploads/member/1231763/1588407734_86275527_1063681657299256_5710504940992987136_n.jpg",
+        "images":[
+            
+                  "https://content3.jdmagicbox.com/comp/service_catalogue/salons-attr-d-tan-face-mask-spa3898-8.jpg",       
+                  "https://content3.jdmagicbox.com/comp/service_catalogue/salons-attr-d-tan-face-mask-spa3898-8.jpg",      
+                  "https://content3.jdmagicbox.com/comp/service_catalogue/salons-attr-d-tan-face-mask-spa3898-8.jpg",       
+                  "https://content3.jdmagicbox.com/comp/service_catalogue/salons-attr-d-tan-face-mask-spa3898-8.jpg"
+            
+    
+        ],
+        "price":"2500",
+        "description":"this is an bride image",
+        "rating":"4.5",
+        "views": 100 
+    },
+    { "id": "2", 
+    "title": "Groom Makeup", 
+    "thumbnail":"https://img.weddingbazaar.com/shaadisaga_production/photos/pictures/003/308/303/new_thumb/171254132_196148935769184_746309465575206417_n.jpg?1644998056",
+    "images":[
+        "https://content3.jdmagicbox.com/comp/service_catalogue/salons-attr-d-tan-face-mask-spa3898-8.jpg",       
+        "https://content3.jdmagicbox.com/comp/service_catalogue/salons-attr-d-tan-face-mask-spa3898-8.jpg",      
+        "https://content3.jdmagicbox.com/comp/service_catalogue/salons-attr-d-tan-face-mask-spa3898-8.jpg",       
+        "https://content3.jdmagicbox.com/comp/service_catalogue/salons-attr-d-tan-face-mask-spa3898-8.jpg"
+
+    ],
+    "price":"3000",
+    "description":"this is grrom image",
+    "rating":"4.5",
+    "views": 100 
+},
+{ "id": "3", 
+    "title": "Spy Makeup", 
+    "thumbnail":"https://content3.jdmagicbox.com/comp/service_catalogue/salons-attr-d-tan-face-mask-spa3898-8.jpg",
+    "images":[
+        "https://content3.jdmagicbox.com/comp/service_catalogue/salons-attr-d-tan-face-mask-spa3898-8.jpg",       
+                  "https://content3.jdmagicbox.com/comp/service_catalogue/salons-attr-d-tan-face-mask-spa3898-8.jpg",      
+                  "https://content3.jdmagicbox.com/comp/service_catalogue/salons-attr-d-tan-face-mask-spa3898-8.jpg",       
+                  "https://content3.jdmagicbox.com/comp/service_catalogue/salons-attr-d-tan-face-mask-spa3898-8.jpg"
+    ],
+    "price":"3050",
+    "description":"this is make up",
+    "rating":"4.5",
+    "views": 100 
+},
+{ "id": "4", 
+    "title": "Function Makeup", 
+    "thumbnail":"https://e0.pxfuel.com/wallpapers/795/957/desktop-wallpaper-beauty-salon-saloon.jpg",
+    "images":[
+        "https://content3.jdmagicbox.com/comp/service_catalogue/salons-attr-d-tan-face-mask-spa3898-8.jpg",       
+        "https://content3.jdmagicbox.com/comp/service_catalogue/salons-attr-d-tan-face-mask-spa3898-8.jpg",      
+        "https://content3.jdmagicbox.com/comp/service_catalogue/salons-attr-d-tan-face-mask-spa3898-8.jpg",       
+        "https://content3.jdmagicbox.com/comp/service_catalogue/salons-attr-d-tan-face-mask-spa3898-8.jpg"
+
+    ],
+    "price":"4000",
+    "description":"this is make ",
+    "rating":"4.5",
+    "views": 100 
+},
+{ "id": "5", 
+    "title": "Any Makeup", 
+    "thumbnail":"https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YmVhdXR5JTIwc2Fsb258ZW58MHx8MHx8fDA%3D",
+    "images":[
+        "https://content3.jdmagicbox.com/comp/service_catalogue/salons-attr-d-tan-face-mask-spa3898-8.jpg",       
+        "https://content3.jdmagicbox.com/comp/service_catalogue/salons-attr-d-tan-face-mask-spa3898-8.jpg",      
+        "https://content3.jdmagicbox.com/comp/service_catalogue/salons-attr-d-tan-face-mask-spa3898-8.jpg",       
+        "https://content3.jdmagicbox.com/comp/service_catalogue/salons-attr-d-tan-face-mask-spa3898-8.jpg"
+
+    ],
+    "price":"6035",
+    "description":"tii os make up 3",
+    "rating":"4.5",
+    "views": 100 
+},
+{ "id": "6", 
+    "title": "Any2 Makeup", 
+    "thumbnail":"https://w0.peakpx.com/wallpaper/94/804/HD-wallpaper-chemical-peels-anton-s-salon-hair-treatment.jpg",
+    "images":[
+        "https://content3.jdmagicbox.com/comp/service_catalogue/salons-attr-d-tan-face-mask-spa3898-8.jpg",       
+        "https://content3.jdmagicbox.com/comp/service_catalogue/salons-attr-d-tan-face-mask-spa3898-8.jpg",      
+        "https://content3.jdmagicbox.com/comp/service_catalogue/salons-attr-d-tan-face-mask-spa3898-8.jpg",       
+        "https://content3.jdmagicbox.com/comp/service_catalogue/salons-attr-d-tan-face-mask-spa3898-8.jpg"
+
+    ],
+    "price":"4562",
+    "description":"this si make up 2",
+    "rating":"4.5",
+    "views": 100 
+}
+
+       ]
+
+}
