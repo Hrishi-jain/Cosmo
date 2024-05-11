@@ -69,6 +69,7 @@ const CourseDetail = () => {
     <>
     <div className="container mx-auto px-4 mt-4">
       <div className="flex flex-wrap">
+        <h1>Hrishi MC hai</h1>
         <div className="w-full md:w-2/3">
           <img src={data?.thumbnail} alt={data?.title} className="w-50px" />
           <div className="grid grid-cols-4 gap-2 mt-2">
