@@ -53,9 +53,9 @@ const CourseDetail = () => {
 
 }
 
-useEffect(()=>{
-  dispatch(addtocart)
-},[])
+// useEffect(()=>{
+//   dispatch(addtocart)
+// },[])
 
   const handelCart=(data)=>{
     dispatch(add(data))
