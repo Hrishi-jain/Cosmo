@@ -1,6 +1,8 @@
 import { Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
-import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
+import { Bars3Icon, ShoppingCartIcon, XMarkIcon } from '@heroicons/react/24/outline'
+import { useSelector } from 'react-redux'
+import { Link } from 'react-router-dom'
 // import{Link} from "react-router-dom"
 
 const navigation = [
@@ -14,7 +16,10 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
 
+
 export default function Navbar({children}) {
+
+  const selector=useSelector((state)=>state.cart)
   return (
     <Disclosure as="nav" className="bg-gray-400">
       {({ open }) => (
@@ -60,14 +65,20 @@ export default function Navbar({children}) {
                 </div>
               </div>
               <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+              <Link to='/cart'>
                 <button
                   type="button"
-                  className="relative rounded-full bg-gray-800 p-1 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
+                  className="relative rounded-full bg-gray-400 p-1 text-black-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
                 >
                   <span className="absolute -inset-1.5" />
-                  <span className="sr-only">View notifications</span>
-                  <BellIcon className="h-6 w-6" aria-hidden="true" />
+                  <span className="sr-only">{selector.length}</span>
+                  <p className="mx-2">{selector.length}</p>
+                  {/* {console.log("hii",selector.length)} */}
+                  
+                  <ShoppingCartIcon className="h-6 w-6" aria-hidden="true" />
+                  
                 </button>
+                </Link>
 
                 {/* Profile dropdown */}
                 <Menu as="div" className="relative ml-3">
