@@ -37,9 +37,9 @@ const CourseDetail = () => {
 
   async function addtocart(data){
     try {
-        const response=await axios.post(`http://localhost:8000/cart`,{
-            body:JSON.stringify(data),
-            header:{'content-type':'application/json'}
+        const response=await axios.post(`http://localhost:8000/cart`,data,{
+            // body:JSON.stringify(data),
+            headers: {'Content-Type': 'application/json'}
         })
         console.log("cart item response",response)  
         setData(response?.data)
@@ -52,12 +52,15 @@ const CourseDetail = () => {
 
 
 }
-useEffect(()=>{
-  dispatch(addtocart)
-},[])
+// useEffect(()=>{
+//   dispatch(addtocart)
+//   // addtocart()
+// },[])
 
   const handelCart=(data)=>{
     dispatch(add(data))
+    // add(data)
+    addtocart(data)
     console.log("here is the code",data)
 
   }

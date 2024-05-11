@@ -6,6 +6,7 @@ const Cart = () => {
     async function getData(){
         try {
             const response=await axios.get(`http://localhost:8000/cart`,{
+                headers: {'Content-Type': 'application/json'}
                 // body:JSON.stringify(),
                 // header:{'content-type':'application/json'}
             })
@@ -28,11 +29,14 @@ const Cart = () => {
     <div>
       cart
     <p>{data?.body?.thumbnail}</p>  
-    {console.log("thumbnail",data?.body?.thumbnail)}
+    {console.log("thumbnail",data?.thumbnail)}
 <p> {data?.title}</p>
-      
+       
     </div>
   )
 }
 
 export default Cart
+
+
+
