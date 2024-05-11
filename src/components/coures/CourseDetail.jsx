@@ -39,9 +39,10 @@ const CourseDetail = () => {
               <img key={index} src={image[0]} alt={data.title} className="w-full h-24 object-cover" />
            
             ))} */}
-                          <img  src={data?.images} alt={data.title} className="w-full h-24 object-cover" />
+                          {/* <img  src={data?.images} alt={data.title} className="w-full h-24 object-cover" /> */}
 
-               {console.log("data of images",data?.images[0])}
+               {/* {console.log("data of images",data?.images[0])} */}
+               <h1>Hrishi</h1>
 
 
           </div>
