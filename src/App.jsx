@@ -10,6 +10,8 @@ import AboutUs from './components/about/About'
 import Coures from './components/coures/Coures'
 import Course11 from './components/coures/Course11'
 import CourseDetail from './components/coures/CourseDetail'
+import CheckOut from './components/checkout/CheckOut'
+import Cart from './components/cart/Cart'
 
 
 
@@ -28,7 +30,9 @@ function App() {
         <Route path='/aboutus' element={<AboutUs/>}/>
         <Route path='/course' element={<Coures/>}/>
         <Route path='/course/:id' element={<CourseDetail/>}/>
-        {/* <Route path='/course11' element={<Course11/>}/> */}
+        <Route path='/course11/:id' element={<Course11/>}/>
+        <Route path='/checkout' element={<CheckOut/>}/>
+        <Route path='/cart'element={<Cart/>}/>
       </Routes>
       <Footer/>
     </Router>
