@@ -55,10 +55,10 @@ const CourseDetail = () => {
 useEffect(()=>{
   dispatch(addtocart)
 },[])
-
   const handelCart=(data)=>{
     dispatch(add(data))
     console.log("here is the code",data)
+    
 
   }
 
@@ -66,6 +66,8 @@ useEffect(()=>{
     <>
     <div className="container mx-auto px-4 mt-4">
       <div className="flex flex-wrap">
+        
+<h1>hfhfrhrhr</h1>
         <div className="w-full md:w-2/3">
           <img src={data?.thumbnail} alt={data?.title} className="w-50px" />
           <div className="grid grid-cols-4 gap-2 mt-2">
@@ -76,7 +78,6 @@ useEffect(()=>{
                           {/* <img  src={data?.images} alt={data.title} className="w-full h-24 object-cover" />
 
                {console.log("data of images",data?.images[0])} */}
-<h1>hrurhru</h1>
 
           </div>
         </div>
