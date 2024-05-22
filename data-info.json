@@ -92,6 +92,7 @@
     }
   ],
   "cart": [
+   
     {
       "id": "2",
       "title": "Groom Makeup",
@@ -108,57 +109,6 @@
       "views": 100
     },
     {
-      "id": "ec5e"
-    },
-    {
-      "id": "dd3e"
-    },
-    {
-      "id": "36c0"
-    },
-    {
-      "id": "3",
-      "title": "Spy Makeup",
-      "thumbnail": "https://content3.jdmagicbox.com/comp/service_catalogue/salons-attr-d-tan-face-mask-spa3898-8.jpg",
-      "images": [
-        "https://content3.jdmagicbox.com/comp/service_catalogue/salons-attr-d-tan-face-mask-spa3898-8.jpg",
-        "https://content3.jdmagicbox.com/comp/service_catalogue/salons-attr-d-tan-face-mask-spa3898-8.jpg",
-        "https://content3.jdmagicbox.com/comp/service_catalogue/salons-attr-d-tan-face-mask-spa3898-8.jpg",
-        "https://content3.jdmagicbox.com/comp/service_catalogue/salons-attr-d-tan-face-mask-spa3898-8.jpg"
-      ],
-      "price": "3050",
-      "description": "this is make up",
-      "rating": "4.5",
-      "views": 100
-    },
-    {
-      "id": "3",
-      "title": "Spy Makeup",
-      "thumbnail": "https://content3.jdmagicbox.com/comp/service_catalogue/salons-attr-d-tan-face-mask-spa3898-8.jpg",
-      "images": [
-        "https://content3.jdmagicbox.com/comp/service_catalogue/salons-attr-d-tan-face-mask-spa3898-8.jpg",
-        "https://content3.jdmagicbox.com/comp/service_catalogue/salons-attr-d-tan-face-mask-spa3898-8.jpg",
-        "https://content3.jdmagicbox.com/comp/service_catalogue/salons-attr-d-tan-face-mask-spa3898-8.jpg",
-        "https://content3.jdmagicbox.com/comp/service_catalogue/salons-attr-d-tan-face-mask-spa3898-8.jpg"
-      ],
-      "price": "3050",
-      "description": "this is make up",
-      "rating": "4.5",
-      "views": 100
-    },
-    {
-      "id": "8452"
-    },
-    {
-      "id": "f8c5"
-    },
-    {
-      "id": "9b40"
-    },
-    {
-      "id": "719b"
-    },
-    {
       "id": "4",
       "title": "Function Makeup",
       "thumbnail": "https://e0.pxfuel.com/wallpapers/795/957/desktop-wallpaper-beauty-salon-saloon.jpg",
@@ -172,27 +122,6 @@
       "description": "this is make ",
       "rating": "4.5",
       "views": 100
-    },
-    {
-      "id": "4",
-      "title": "Function Makeup",
-      "thumbnail": "https://e0.pxfuel.com/wallpapers/795/957/desktop-wallpaper-beauty-salon-saloon.jpg",
-      "images": [
-        "https://content3.jdmagicbox.com/comp/service_catalogue/salons-attr-d-tan-face-mask-spa3898-8.jpg",
-        "https://content3.jdmagicbox.com/comp/service_catalogue/salons-attr-d-tan-face-mask-spa3898-8.jpg",
-        "https://content3.jdmagicbox.com/comp/service_catalogue/salons-attr-d-tan-face-mask-spa3898-8.jpg",
-        "https://content3.jdmagicbox.com/comp/service_catalogue/salons-attr-d-tan-face-mask-spa3898-8.jpg"
-      ],
-      "price": "4000",
-      "description": "this is make ",
-      "rating": "4.5",
-      "views": 100
-    },
-    {
-      "id": "47ce",
-      "header": {
-        "content-type": "application/json"
-      }
     }
   ]
 }
